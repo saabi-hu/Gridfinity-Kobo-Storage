@@ -3,12 +3,12 @@
 // All dimensions in millimetres.
 
 /* [Device] */
-// Kobo Clara Color, long side
-device_length = 144;
-// Kobo Clara Color, short side
-device_width = 112;
-// Kobo Clara Color thickness (add your cover's thickness if you use one)
-device_thickness = 9.2;
+// Kobo Clara Color in its cover, long side (measured 160 +/- 5, sized for the maximum)
+device_length = 165;
+// Kobo Clara Color in its cover, short side (measured 110 +/- 5, sized for the maximum)
+device_width = 115;
+// Kobo Clara Color thickness with the cover closed (measured 10 +/- 5, the pocket is 14 deep)
+device_thickness = 14;
 // Gap between the device and the pocket wall, per side
 clearance = 1.0;
 // Corner radius of the pocket
@@ -16,7 +16,7 @@ pocket_corner_radius = 6;
 
 /* [Bin] */
 // Grid units along X (42 mm each)
-grid_x = 4;
+grid_x = 5;
 // Grid units along Y (42 mm each)
 grid_y = 3;
 // Height in 7 mm units, base included (max 6 for a 57 mm drawer with a 5 mm baseplate)

@@ -9,15 +9,15 @@ A Gridfinity bin that keeps a **Kobo Clara Color** lying flat in a drawer.
 | File | What it is |
 | --- | --- |
 | `kobo_bin.scad` | Parametric OpenSCAD source (no external libraries needed) |
-| `stl/kobo_bin_4x3x3.stl` | Ready-to-print STL with the default settings |
+| `stl/kobo_bin_5x3x3.stl` | Ready-to-print STL with the default settings |
 
 ## Measurements used
 
 | What | Value |
 | --- | --- |
-| Kobo Clara Color | 144 × 112 × 9.2 mm |
-| Pocket (1 mm clearance per side) | 146 × 114 mm, 6 mm corner radius |
-| Bin footprint | 4 × 3 grid units, 167.5 × 125.5 mm |
+| Kobo Clara Color in its cover | 160 × 110 × 10 mm measured, ±5 mm; sized for 165 × 115 × 14 mm |
+| Pocket (1 mm clearance per side) | 167 × 117 mm, 6 mm corner radius |
+| Bin footprint | 5 × 3 grid units, 209.5 × 125.5 mm |
 | Bin height | 3 units (21 mm) + 4.4 mm stacking lip = 25.4 mm |
 | Pocket depth | 14 mm from the floor to the rim (18.4 mm to the top of the lip) |
 | Drawer inside height | 57 mm |
@@ -41,7 +41,7 @@ Useful knobs:
 Export with F6 (render) and then File > Export > STL, or from the command line:
 
 ```sh
-openscad -o stl/kobo_bin_4x3x3.stl kobo_bin.scad
+openscad -o stl/kobo_bin_5x3x3.stl kobo_bin.scad
 ```
 
 ## Printing
