@@ -15,8 +15,8 @@ A Gridfinity bin that keeps a **Kobo Clara Color** lying flat in a drawer.
 
 | What | Value |
 | --- | --- |
-| Kobo Clara Color in its cover | 160 × 110 × 10 mm measured, ±5 mm; sized for 165 × 115 × 14 mm |
-| Pocket (1 mm clearance per side) | 167 × 117 mm, 6 mm corner radius |
+| Kobo Clara Color in its cover | 160 × 111 × 9.65 mm measured; sized for 161 × 112 mm to allow for ruler error |
+| Pocket (1 mm clearance per side) | 163 × 114 mm, 6 mm corner radius |
 | Bin footprint | 5 × 3 grid units, 209.5 × 125.5 mm |
 | Bin height | 3 units (21 mm) + 4.4 mm stacking lip = 25.4 mm |
 | Pocket depth | 14 mm from the floor to the rim (18.4 mm to the top of the lip) |

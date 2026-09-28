@@ -3,12 +3,12 @@
 // All dimensions in millimetres.
 
 /* [Device] */
-// Kobo Clara Color in its cover, long side (measured 160 +/- 5, sized for the maximum)
-device_length = 165;
-// Kobo Clara Color in its cover, short side (measured 110 +/- 5, sized for the maximum)
-device_width = 115;
-// Kobo Clara Color thickness with the cover closed (measured 10 +/- 5, the pocket is 14 deep)
-device_thickness = 14;
+// Kobo Clara Color in its cover, long side (measured 160 on a ruler, +1 for reading error)
+device_length = 161;
+// Kobo Clara Color in its cover, short side (measured 111 on a ruler, +1 for reading error)
+device_width = 112;
+// Kobo Clara Color thickness with the cover closed (measured 9.65 with calipers)
+device_thickness = 9.65;
 // Gap between the device and the pocket wall, per side
 clearance = 1.0;
 // Corner radius of the pocket
